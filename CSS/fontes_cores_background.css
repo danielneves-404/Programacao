@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(82, 50, 102);
+    background-image: url("/Fundo\ de\ tela.png");
+    height: 100vw;
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.banda {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif; /*família da fonte, 
+    tem mais 1 família por causa dos navegadores*/
+    font-style: oblique; /*estilo da fonte*/
+    font-size: 80px; /*posso usar EM ou REM*/
+    font-weight: 600; /*grossura do texto*/
+}
+
+.album {
+    font-family:Arial, Helvetica, sans-serif; /*família da fonte, 
+    tem mais 1 família por causa dos navegadores*/
+    font-style: oblique; /*estilo da fonte*/
+    font-size: 60px; /*posso usar EM ou REM*/
+    font-weight: 600; /*grossura do texto*/
+    color: #ffffff;
+    margin: 0px 0px 30px 20px;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif; /*família da fonte, 
+    tem mais 1 família por causa dos navegadores*/
+    font-style: oblique; /*estilo da fonte*/
+    font-size: 45px; /*posso usar EM ou REM*/
+    font-weight: 600; /*grossura do texto*/
+    color: rgb(73, 121, 168);
+    margin: 20px 20px 20px 20px;
+}
+
+img {
+    margin: 20px 20px 20px 20px;
+}

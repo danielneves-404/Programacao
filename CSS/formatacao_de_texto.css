@@ -1,0 +1,30 @@
+/*tudo que estiver dentro do * será comentário, 
+mas somente com o / do lado */
+
+#banda {
+    font-size: 80px;
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.album1 {
+    font-size: 60px;
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: palevioletred;
+}
+
+p {
+    font-size: 70px;
+    font-family: "Iceland", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(220, 227, 245);
+}
+
+body {
+    background-color: rgb(11, 38, 107);
+}

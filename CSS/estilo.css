@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+}
+
+.album_1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 35px;
+    color: peru;
+}
+
+.album_2{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 35px;
+    color: rgba(217, 212, 218, 0.878);
+}
+
+p {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 40px 40px 20px;
+    color: peru;
+}
+
+.banda {
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 35px;
+    color: aliceblue;
+}
+
+a {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 40px 40px 20px;
+    color: white;
+    background-color: black;
+}
+
+.musica {
+    color: rgba(217, 212, 218, 0.878);
+}

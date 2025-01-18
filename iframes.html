@@ -1,0 +1,47 @@
+<!--as tags de multimídia possibilitam incluir imagens,vídeos, 
+aúdios, iframes e outros tipos de conteúdo multimídia.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+    <audio controls>
+        <source src="multimídia/audio.mp3" type="audio/mpeg">
+        <source src="music.ogg" type="audio/mpeg">
+        <p>navegador não renderiza</p>
+    </audio>
+
+    <video controls>
+        <source src="multimídia/áudio.mp3" type="video/mp4">
+        <source src="music.ogg" type="audio/mpeg">
+        <p>navegador não renderiza</p>
+    </video>
+
+<!--É mais fácil utilizar o iframe 
+incorporado no arquivo-->
+    <iframe width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/to6VI5RJw1E?si=aZgC7DZiuXbt0ezI" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; 
+    web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4911674300934!2d-43.176253923905215!3d-22.8213108348234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99832b6282696f%3A0xd9dc8e9a3500f7c1!2sIgreja%20Batista%20Ministerio%20Reconcilia%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1735257244916!5m2!1spt-BR!2sbr" 
+    width="560" 
+    height="315" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!--A conexão pode ser recusada-->
+    <iframe src="https://www.youtube.com/watch?v=to6VI5RJw1E">
+        <p>2023 em uma música</p>
+    </iframe>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(124, 44, 148);
+}
+
+.banda {
+    font-size: 80px;
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.album1 {
+    font-size: 85px;
+    font-family: "Beau Rivage", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: goldenrod;
+}
+
+p {
+    font-family: "Beau Rivage", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: wheat
+}
+
+.d-block {
+    background-color: brown;
+}
+
+.d-flex {
+    background-color: rgb(198, 10, 164);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 60px;
+}
+
+body {
+    display: flex;
+}

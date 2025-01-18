@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(170, 83, 155);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banda {
+    font-family: "Notable", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 35px;
+}
+
+.album {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0px;
+    padding: 35px;
+    color: white;
+}
+
+p {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 40px 40px 20px; /*primeiro valor, top(cima,
+    right(direito), bottom(inferior) e left(esquerdo)*/
+}
+
+a {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin: 40px 40px 20px;
+    color: white;
+}
+
+button {
+    margin: 50px 40px;
+    padding: 20px 20px 20px 20px;
+}
+
+.link {
+    border: 6px solid whitesmoke;
+    /* border-bottom: 3px solid #000; */
+    border-radius: 30px;
+    margin: 30px;
+    padding: 5px 5px;
+    background-color: peru;
+    /* border-width: thin;
+    border-color: whitesmoke;
+    border-style: dotted; */
+}
